@@ -1,0 +1,45 @@
+.luna-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.luna-column {
+  width: 50%;
+  margin-bottom: 150px;
+}
+
+.luna-photo {
+  width: 100%;
+}
+
+.fact-column {
+  width: 40%;
+  margin-top: 100px;
+}
+
+.fact {
+  margin-top: 50px;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .luna-content {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .luna-column {
+    width: auto;
+    margin-bottom: 40px;
+  }
+
+  .fact-column {
+    width: auto;
+    height: auto;
+    margin: 20px;
+  }
+}
