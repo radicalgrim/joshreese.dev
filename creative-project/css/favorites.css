@@ -1,0 +1,42 @@
+.favorites-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.card-container-item {
+  display: flex;
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 450px;
+  height: 350px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .card-container {
+    width: 100%;
+  }
+
+  .card-container-item {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+
+}

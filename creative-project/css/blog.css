@@ -1,0 +1,25 @@
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.blog-container-item {
+  display: flex;
+  width: 80%;
+}
+
+.blog {
+  font-family: sans-serif;
+  color: #808080;
+}
+
+.blog-post {
+  text-indent: 3%;
+  text-align: justify;
+  color: #5a5a5a;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {}
