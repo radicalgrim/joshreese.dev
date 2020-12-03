@@ -18,9 +18,6 @@
       <li class="nav-item">
         <router-link to="/landon" class="nav-link">Landon's Page</router-link>
       </li>
-      <li class="nav-item">
-        <router-link to="/luna" class="nav-link">Luna's Page</router-link>
-      </li>
     </ul>
   </div>
 </nav>
