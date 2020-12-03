@@ -4,7 +4,6 @@ import Home from '../views/Home.vue'
 import Blog from '../views/Blog.vue'
 import Favorites from '../views/Favorites.vue'
 import Landon from '../views/Landon.vue'
-import Luna from '../views/Luna.vue'
 
 Vue.use(VueRouter)
 
@@ -27,11 +26,6 @@ const routes = [{
         path: '/landon',
         name: 'Landon',
         component: Landon
-    },
-    {
-        path: '/luna',
-        name: 'Luna',
-        component: Luna
     }
 ]
 
